@@ -17,6 +17,7 @@ import android.view.MenuItem;
 import id.sch.smktelkom_mlg.learn.recyclerview3.adapter.HotelAdapter;
 
 public class MainActivity extends AppCompatActivity implements HotelAdapter.IHotelAdapter {
+    int itemPos;
 
     public static final String HOTEL = "hotel";
 
